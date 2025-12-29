@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Della+Respira&family=Lisu+Bosa:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Ensure fonts apply globally */
+[class*="font-\[\'Della_Respira"] {
+  font-family: 'Della Respira', serif !important;
+}
+
+[class*="font-\[\'Lisu_Bosa"] {
+  font-family: 'Lisu Bosa', sans-serif !important;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Della Respira', 'Lisu Bosa', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
