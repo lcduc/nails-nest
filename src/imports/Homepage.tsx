@@ -1,22 +1,22 @@
 import svgPaths from "./svg-nt74wbh7om";
 import clsx from "clsx";
-import imgImage16 from "/assets/image 9 (1).png";
-import imgImage17 from "/assets/image 9 (2).png";
-import imgImage18 from "/assets/image 9 (3).png";
-import imgImage19 from "/assets/image 9 (4).png";
-import imgImage20 from "/assets/image 9 (5).png";
-import imgImage9 from "/assets/image 9 (6).png";
-import imgImage10 from "/assets/image 9 (7).png";
-import imgImage11 from "/assets/image 9 (8).png";
-import imgImage12 from "/assets/image 9 (9).png";
-import imgImage15 from "/assets/image 9 (0).png";
-import imgPriceList2 from "/assets/Price List 2.png";
-import imgPriceList1 from "/assets/Price List 1.png";
-import imgImage14 from "/assets/image 11.png";
+import imgImage15 from "/assets/image 9 (0).webp";
+import imgImage16 from "/assets/image 9 (1).webp";
+import imgImage17 from "/assets/image 9 (2).webp";
+import imgImage18 from "/assets/image 9 (3).webp";
+import imgImage19 from "/assets/image 9 (4).webp";
+import imgImage20 from "/assets/image 9 (5).webp";
+import imgImage9 from "/assets/image 9 (6).webp";
+import imgImage10 from "/assets/image 9 (7).webp";
+import imgImage11 from "/assets/image 9 (8).webp";
+import imgImage12 from "/assets/image 9 (9).webp";
+import imgPriceList1 from "/assets/Price List 1.webp";
+import imgPriceList2 from "/assets/Price List 2.webp";
+import imgImage14 from "/assets/image 11.webp";
 import imgImage13 from "/assets/image 12.webp";
-import imgImage23 from "/assets/image 14.png";
-import imgImage21 from "/assets/image 15.png";
-import imgImage22 from "/assets/image 16.png";
+import imgImage23 from "/assets/image 14.webp";
+import imgImage21 from "/assets/image 15.webp";
+import imgImage22 from "/assets/image 16.webp";
 import imgScreenshot20251202At1021511 from "/assets/banner.svg";
 
 function Frame29748PriceList({ children }: React.PropsWithChildren<{}>) {

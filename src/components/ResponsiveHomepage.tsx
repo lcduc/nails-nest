@@ -1,21 +1,21 @@
 import svgPaths from "../imports/svg-nt74wbh7om";
-import imgImage16 from "/assets/image 9 (1).png";
-import imgImage17 from "/assets/image 9 (2).png";
-import imgImage18 from "/assets/image 9 (3).png";
-import imgImage19 from "/assets/image 9 (4).png";
-import imgImage20 from "/assets/image 9 (5).png";
-import imgImage9 from "/assets/image 9 (6).png";
-import imgImage10 from "/assets/image 9 (7).png";
-import imgImage11 from "/assets/image 9 (8).png";
-import imgImage12 from "/assets/image 9 (9).png";
-import imgImage15 from "/assets/image 9 (0).png";
-import imgPriceList2 from "/assets/Price List 2.png";
-import imgPriceList1 from "/assets/Price List 1.png";
-import imgImage14 from "/assets/image 11.png";
+import imgImage15 from "/assets/image 9 (0).webp";
+import imgImage16 from "/assets/image 9 (1).webp";
+import imgImage17 from "/assets/image 9 (2).webp";
+import imgImage18 from "/assets/image 9 (3).webp";
+import imgImage19 from "/assets/image 9 (4).webp";
+import imgImage20 from "/assets/image 9 (5).webp";
+import imgImage9 from "/assets/image 9 (6).webp";
+import imgImage10 from "/assets/image 9 (7).webp";
+import imgImage11 from "/assets/image 9 (8).webp";
+import imgImage12 from "/assets/image 9 (9).webp";
+import imgPriceList1 from "/assets/Price List 1.webp";
+import imgPriceList2 from "/assets/Price List 2.webp";
+import imgImage14 from "/assets/image 11.webp";
 import imgImage13 from "/assets/image 12.webp";
-import imgImage23 from "/assets/image 14.png";
-import imgImage21 from "/assets/image 15.png";
-import imgImage22 from "/assets/image 16.png";
+import imgImage23 from "/assets/image 14.webp";
+import imgImage21 from "/assets/image 15.webp";
+import imgImage22 from "/assets/image 16.webp";
 import imgScreenshot20251202At1021511 from "/assets/banner.svg";
 import { Menu, X, ChevronLeft, ChevronRight } from "lucide-react";
 import { useState } from "react";
@@ -155,7 +155,7 @@ export default function ResponsiveHomepage() {
           <img 
             alt="Background" 
             className="w-full h-full object-cover" 
-            src="/assets/OBJECTS.png" 
+            src="/assets/OBJECTS.webp" 
           />
         </div>
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative z-10">
@@ -351,7 +351,7 @@ export default function ResponsiveHomepage() {
               <div className="font-['Della_Respira:Regular',sans-serif] text-black text-[14px] sm:text-[16px] space-y-1">
                 <p>Mon-Thu+Sat: 9:00AM - 6:00PM</p>
                 <p>Friday: 9:00AM - 7:00PM</p>
-                <p>Sunday: 10:00PM - 7:00PM</p>
+                <p>Sunday: 10:00AM - 7:00PM</p>
               </div>
             </div>
           </div>
