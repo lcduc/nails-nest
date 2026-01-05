@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nailsnest.nz/sitemap.xml
