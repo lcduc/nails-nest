@@ -124,7 +124,7 @@ export default function ResponsiveHomepage() {
               <div>Beauty</div>
               <div>Finds Its Nest</div>
             </h1>
-            <a href="https://www.fresha.com/vi/p/nails-nest-auckland-6028175?share=true&pId=2704594" target="_blank" rel="noopener noreferrer" className="mt-6 sm:mt-8 inline-block bg-[#859588] text-white px-8 py-4 rounded-[12px] shadow-[4px_4px_0px_0px_#d6d6d6] hover:opacity-90 transition-opacity font-['Della_Respira:Regular',sans-serif] text-[18px] sm:text-[22px]">
+            <a href="https://www.fresha.com/a/nails-nest-auckland-107-oakdale-road-ix1wozzt/booking" target="_blank" rel="noopener noreferrer" className="mt-6 sm:mt-8 inline-block bg-[#859588] text-white px-8 py-4 rounded-[12px] shadow-[4px_4px_0px_0px_#d6d6d6] hover:opacity-90 transition-opacity font-['Della_Respira:Regular',sans-serif] text-[18px] sm:text-[22px]">
               Book now
             </a>
           </div>
@@ -197,7 +197,7 @@ export default function ResponsiveHomepage() {
             </div>
           </div>
           <div className="mt-8 flex justify-center">
-            <a href="https://www.fresha.com/vi/p/nails-nest-auckland-6028175?share=true&pId=2704594" target="_blank" rel="noopener noreferrer" className="bg-[#859588] text-white px-8 py-4 rounded-[12px] shadow-[4px_4px_0px_0px_#d6d6d6] hover:opacity-90 transition-opacity font-['Della_Respira:Regular',sans-serif] text-[18px] sm:text-[22px]">
+            <a href="https://www.fresha.com/a/nails-nest-auckland-107-oakdale-road-ix1wozzt/booking" target="_blank" rel="noopener noreferrer" className="bg-[#859588] text-white px-8 py-4 rounded-[12px] shadow-[4px_4px_0px_0px_#d6d6d6] hover:opacity-90 transition-opacity font-['Della_Respira:Regular',sans-serif] text-[18px] sm:text-[22px]">
               Book now
             </a>
           </div>
