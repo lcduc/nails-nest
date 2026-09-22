@@ -156,48 +156,46 @@ export default function ResponsiveHomepage() {
     <div className="bg-[#f4f4f1] min-h-screen w-full font-['Lisu_Bosa:Regular',sans-serif]">
       {/* Header */}
       <header className="bg-[#31402f] sticky top-0 z-50 w-full">
-        <div className="mx-auto max-w-7xl px-5 sm:px-8 lg:px-12">
-          <div className="flex items-center justify-between h-[72px] sm:h-[80px] lg:h-[88px]">
-            <div className="flex items-center gap-3 sm:gap-3.5">
-              <img
-                alt="Nails Nest"
-                src={imgLogo}
-                className="w-10 h-10 sm:w-12 sm:h-12 lg:w-[54px] lg:h-[54px] rounded-full object-cover"
-              />
-              <div>
-                <div className="font-['Della_Respira:Regular',sans-serif] text-[#f6f3e6] text-[15px] sm:text-[18px] lg:text-[20px] tracking-[.14em]">
-                  NAILS NEST
-                </div>
-                <div className="text-[#9fb098] text-[9px] sm:text-[10px] lg:text-[11px] tracking-[.2em]">
-                  HILLSBOROUGH
-                </div>
+        <div className="flex items-center justify-between h-[88px] px-5 sm:px-8 lg:px-12">
+          <div className="flex items-center gap-2.5 sm:gap-3">
+            <img
+              alt="Nails Nest"
+              src={imgLogo}
+              className="w-8 h-8 sm:w-9 sm:h-9 rounded-full object-cover"
+            />
+            <div>
+              <div className="font-['Della_Respira:Regular',sans-serif] text-[#f6f3e6] text-[13px] sm:text-[15px] lg:text-[17px] tracking-[.14em]">
+                NAILS NEST
+              </div>
+              <div className="text-[#9fb098] text-[8px] sm:text-[9px] lg:text-[10px] tracking-[.2em]">
+                HILLSBOROUGH
               </div>
             </div>
-
-            <nav className="hidden lg:flex items-center gap-[34px] text-[#e9e5ca] text-[12px] font-semibold tracking-[.16em]">
-              {navLinks.map((link) => (
-                <a key={link.href} href={link.href} className="hover:opacity-85 transition-opacity">
-                  {link.label}
-                </a>
-              ))}
-              <a
-                href={BOOKING_URL}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-[#e9e5ca] text-[#31402f] px-[22px] py-[11px] rounded-sm hover:bg-white transition-colors"
-              >
-                BOOK NOW
-              </a>
-            </nav>
-
-            <button
-              className="lg:hidden text-[#e9e5ca] p-2"
-              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              aria-label="Toggle menu"
-            >
-              {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
-            </button>
           </div>
+
+          <nav className="hidden lg:flex items-center gap-[34px] text-[#e9e5ca] text-[12px] font-semibold tracking-[.16em]">
+            {navLinks.map((link) => (
+              <a key={link.href} href={link.href} className="hover:opacity-85 transition-opacity">
+                {link.label}
+              </a>
+            ))}
+            <a
+              href={BOOKING_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-[#e9e5ca] text-[#31402f] px-[22px] py-[11px] rounded-sm hover:bg-white transition-colors"
+            >
+              BOOK NOW
+            </a>
+          </nav>
+
+          <button
+            className="lg:hidden text-[#e9e5ca] p-2"
+            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            aria-label="Toggle menu"
+          >
+            {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+          </button>
         </div>
 
         {mobileMenuOpen && (
@@ -276,7 +274,7 @@ export default function ResponsiveHomepage() {
       </section>
 
       {/* Studio */}
-      <section id="studio" className="bg-[#f4f4f1] py-16 sm:py-20 lg:py-[120px] px-5 sm:px-8 lg:px-12 scroll-mt-[72px] lg:scroll-mt-[88px]">
+      <section id="studio" className="bg-[#f4f4f1] py-16 sm:py-20 lg:py-[120px] px-5 sm:px-8 lg:px-12 scroll-mt-[100px] sm:scroll-mt-[116px]">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-[88px] items-center">
           <div className="flex flex-col gap-5 sm:gap-[26px]">
             <div className="text-[#7e8e7f] text-[12px] tracking-[.24em]">THE STUDIO</div>
@@ -330,7 +328,7 @@ export default function ResponsiveHomepage() {
       </section>
 
       {/* Work */}
-      <section id="work" className="bg-[#31402f] py-16 sm:py-20 lg:py-[120px] px-5 sm:px-8 lg:px-12 scroll-mt-[72px] lg:scroll-mt-[88px]">
+      <section id="work" className="bg-[#31402f] py-16 sm:py-20 lg:py-[120px] px-5 sm:px-8 lg:px-12 scroll-mt-[100px] sm:scroll-mt-[116px]">
         <div className="max-w-7xl mx-auto">
           <div className="flex items-end justify-between gap-8 mb-10 sm:mb-[52px] flex-wrap">
             <div>
@@ -384,7 +382,7 @@ export default function ResponsiveHomepage() {
       </section>
 
       {/* Menu */}
-      <section id="menu" className="bg-[#f4f4f1] py-16 sm:py-20 lg:py-[120px] px-5 sm:px-8 lg:px-12 scroll-mt-[72px] lg:scroll-mt-[88px]">
+      <section id="menu" className="bg-[#f4f4f1] py-16 sm:py-20 lg:py-[120px] px-5 sm:px-8 lg:px-12 scroll-mt-[100px] sm:scroll-mt-[116px]">
         <div className="max-w-7xl mx-auto">
           <div className="flex items-end justify-between gap-6 mb-10 sm:mb-14 flex-wrap">
             <div>
@@ -443,7 +441,7 @@ export default function ResponsiveHomepage() {
       </section>
 
       {/* Words */}
-      <section id="words" className="bg-[#7e8e7f] py-16 sm:py-20 lg:py-[100px] px-5 sm:px-8 scroll-mt-[72px] lg:scroll-mt-[88px]">
+      <section id="words" className="bg-[#7e8e7f] py-16 sm:py-20 lg:py-[100px] px-5 sm:px-8 scroll-mt-[100px] sm:scroll-mt-[116px]">
         <div className="max-w-[900px] mx-auto text-center flex flex-col items-center gap-5 sm:gap-[26px]">
           <div className="font-['Della_Respira:Regular',sans-serif] text-[#e9e5ca] text-[48px] sm:text-[64px] leading-[0.6]">
             &ldquo;
@@ -471,7 +469,7 @@ export default function ResponsiveHomepage() {
       </section>
 
       {/* Visit */}
-      <section id="visit" className="grid grid-cols-1 lg:grid-cols-2 bg-[#f4f4f1] scroll-mt-[72px] lg:scroll-mt-[88px]">
+      <section id="visit" className="grid grid-cols-1 lg:grid-cols-2 bg-[#f4f4f1] scroll-mt-[100px] sm:scroll-mt-[116px]">
         <div className="min-h-[320px] sm:min-h-[420px] lg:min-h-[560px] overflow-hidden">
           <img alt="Nails Nest reception" src={imgVisit} className="w-full h-full object-cover" />
         </div>
@@ -524,10 +522,10 @@ export default function ResponsiveHomepage() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-[#31402f] px-5 py-8 sm:px-8 sm:py-9 lg:px-12 flex items-center justify-between gap-5 flex-wrap">
-        <div className="flex items-center gap-3.5">
-          <img alt="Nails Nest" src={imgLogo} className="w-9 h-9 sm:w-11 sm:h-11 rounded-full object-cover" />
-          <div className="font-['Della_Respira:Regular',sans-serif] text-[#e9e5ca] text-[15px] sm:text-[17px] tracking-[.14em]">
+      <footer className="bg-[#31402f] min-h-[88px] px-5 sm:px-8 lg:px-12 flex items-center justify-between gap-5 flex-wrap py-4">
+        <div className="flex items-center gap-2.5 sm:gap-3">
+          <img alt="Nails Nest" src={imgLogo} className="w-8 h-8 sm:w-9 sm:h-9 rounded-full object-cover" />
+          <div className="font-['Della_Respira:Regular',sans-serif] text-[#e9e5ca] text-[13px] sm:text-[14px] tracking-[.14em]">
             NAILS NEST
           </div>
         </div>
